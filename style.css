@@ -1,0 +1,68 @@
+* {
+  margin: 0; padding: 0;
+}
+
+.grad1{
+  width: 100px;
+  height: 100px; 
+  background: linear-gradient(45deg, red, blue);
+}
+
+.grad2{
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(at center, rgb(151, 102, 102), #2c0400);
+}
+
+.grad3{
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(at left, rgb(151, 102, 102), #2c0400);
+}
+
+.grad4{
+  background: #474542;
+  text-align: center;
+  
+}
+.grad4 span{
+  margin: 50px;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  box-shadow: inset 2px 2px 5px rgb(29, 20, 20), 1px 1px 10px rgb(255, 243, 243);
+}
+
+.grad5{
+  background-color: azure;
+  text-align: center;
+}
+
+.grad5 span{
+  background: rgb(78, 0, 0);
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 50px;
+  box-shadow: 50px 14px 28px 5px rgb(58, 56, 56), 50px 10px 10px 5px rgb(58, 56, 56);
+}
+
+
+.spin4 span{
+  background: rgb(143, 60, 60);
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 50px;
+  box-shadow: 50px 14px 28px 5px rgba(0, 0, 0, 0.25), 50px 10px 10px 5px rgba(0, 0, 0, 22);
+}
+.spin5{
+  width: 100px;
+  height: 100px;
+  background: repeating-linear-gradient(45deg,blue, blue 10px, red 10px, blue 20px);
+}
+.spin6{
+  width: 100px;
+  height: 100px;
+  background: repeating-linear-gradient(45deg,blue, blue 10px, RED 10px, RED 20px);
+}
